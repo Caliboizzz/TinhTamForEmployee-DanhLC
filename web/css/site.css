@@ -1,0 +1,284 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 24, 2022, 8:07:59 PM
+    Author     : PHT
+*/
+.print-only {
+    display: none;
+}
+@media print {
+    /*khi in */
+    .no-print {
+        display: none;
+    }
+    .print-only{
+        display: block;
+    }
+    .title-print{
+        text-align: center;
+    }
+
+}
+
+
+.header{
+    background: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.footer{
+    background: white;
+    border-top: 2px solid #01dcc8;
+    height: 50px;
+}
+
+.title {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.content {
+    min-height: 700px;
+}
+.row{
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.login{
+    position: relative;
+    max-width: 50%;
+    padding-left: 80px;
+    border-width: 1;
+    align-content: center;
+    margin: auto;
+    padding-bottom: 150px;
+}
+.image{
+    max-width: 50%;
+    align-self: center;
+    padding-left: 150px;
+    margin-top: -100px;
+}
+
+.login-header{
+    position: relative;   
+    display: flex;
+}
+.login-header h1{
+    flex:1;
+}
+.login-header a{
+    flex:1;
+    position: absolute;
+    color:gray;
+    right: 0;
+    text-decoration: none;
+    margin-top: 9px;
+    font-size:25px;
+}
+.text-field{
+    position: relative;
+}
+.text-field input {
+    min-width: 300px;
+    margin-top:30px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    border: 2px solid gray;
+    height: 60px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+i.bi.bi-eye-slash{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+i.bi.bi-eye{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form-control:focus {
+    outline: none !important;
+    border-color: #01dcc8;
+    box-shadow: none;
+}
+.form-control{
+    border-radius: 40px;
+}
+.btn-login button{
+    width: 200px;
+    align-content: center;
+    background-color: #01dcc8;
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px #ededed;
+}
+.col-sm-6 form{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.btn-register{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.btn-register button{
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    width: 200px;
+    height: 45px;
+    text-align:center;
+    background-color: #01dcc8;
+    color: white;
+    font-size: 20px;
+    box-shadow: 5px 5px #ededed;
+    border: none;
+    padding-bottom: 3px;
+
+}
+
+a.btn.btn-secondary{
+    border-radius: 20px;
+    text-align:center;
+    background-color: #01dcc8;
+    color: white;
+    box-shadow: 5px 5px #ededed;
+    border: none;  
+}
+button.btn.btn-secondary{
+    border-radius: 20px;
+    text-align:center;
+    background-color: #01dcc8;
+    color: white;
+    box-shadow: 5px 5px #ededed;
+    border: none;  
+}
+button.btn.btn-outline-secondary{
+    box-shadow: 5px 5px #ededed;
+}
+
+button.btn.btn-outline-danger{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+a.btn.btn-danger{
+    border-radius: 20px;
+    box-shadow: 5px 5px #ededed;
+}
+.col-sm-12 h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+}
+.col-sm-12 a{
+    color:gray;
+    right: 0;
+    text-decoration: none;
+    margin-top: 9px;
+    font-size:25px;
+}
+input{
+    border-radius: 40px; 
+}
+
+.col-sm-8 a{
+    color:gray;
+    right: 0;
+    text-decoration: none;
+    margin-top: 9px;
+    font-size:25px;
+}
+
+
+.cashier-total h1{
+    position: absolute;
+    right: 0;
+    margin-top: 240px;
+    margin-right: 10px;
+
+}
+.cashier-income-search button{
+    border-radius: 20px; 
+    margin-bottom: 10px;
+    background-color: #01dcc8;
+    color: white;
+    border: none;
+    width: 100px;
+}
+.cashier-income-search input#date{
+    min-width: 200px;
+    border-radius: 40px;
+    border: 2px solid gray;
+    padding-left: 35px;
+}
+.hidden{
+    display: none;
+}
+
+.hidden-cashier{
+    display: none;
+}
+
+.form-error {
+    color: red;
+    display: none;
+}
+
+.nav{
+    --bs-link-color: #01dcc8;
+}
+.nav{
+    --bs-nav-link-hover-color: #00635a;
+}
+
+a.btn.btn-outline-secondary{
+    border-radius: 20px;
+    border-color: #01dcc8;
+    color: #01dcc8;
+}
+div.row.footer{
+/*    margin-top: 100px;*/
+    height: 200px;
+}
+
+.contact h2{
+    font-size: 20px;
+
+}
+div.col.mb-3.mt-3{
+    position: relative;
+}
+i.bi.bi-eye-slash-fill{
+    position: absolute;
+    right: 15px;
+    top: 120%;
+    transform: translateY(-185%);
+    margin-right: 10px;
+}
+i.bi.bi-eye-fill{
+    position: absolute;
+    right: 15px;
+    top: 120%;
+    transform: translateY(-185%);
+    margin-right: 10px;
+}
